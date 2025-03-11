@@ -1,6 +1,7 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+import SampleViewVue from './SampleView.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import { Head } from '@inertiajs/vue3';
             </h2>
         </template>
 
+        <SampleViewVue/>
         <div class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div
